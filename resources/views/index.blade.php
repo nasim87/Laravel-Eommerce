@@ -1,0 +1,10 @@
+@extends('layouts.master')
+@section('content')
+    @include('frontend.inc.header')
+    @include('frontend.inc.navigation')
+    @include('frontend.inc.home')
+    @include('frontend.inc.section')
+    @include('frontend.inc.hotdeal')
+    @include('frontend.inc.latest')
+    @include('frontend.inc.footer')   
+@endsection
